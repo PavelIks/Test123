@@ -1,0 +1,129 @@
+a
+{
+    text-decoration: none;
+}
+
+#li1
+{
+    list-style-type: none;
+}
+#li1:before
+{
+    color: orange;
+    content: "⚫ ";
+    size: 10px;
+}
+
+#Website
+{
+    width: 1920px;
+    height: 8000px;
+}
+
+#Orange_circle1
+{
+    height: 1000px;
+    background-color: #FF7E00;
+    border-radius: 0% 0% 160% 160%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -100px;
+}
+#Orange_circle2
+{
+    height: 450px;
+    background-color: #F1F7F9;
+    border-radius: 50% 50% 0% 0%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 79px;
+}
+
+#MainMenu
+{
+    width: 200px;
+    margin-top: -600px;
+    margin-left: 150px;
+}
+#MainMenu a
+{
+    padding: 0px 10px 0px 0px;
+    color: black;
+    text-transform: Times;
+    display: block;
+}
+#MainMenu a:hover
+{
+    background-color: cornsilk;
+}
+
+.myButton1
+{
+	box-shadow: 0px 0px 0px 0px #ffffff;
+	background-color: #FF7E00;
+	border-radius: 28px;
+	border: 1px solid #ffffff;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 17px;
+	font-weight: bold;
+	padding: 5px 31px;
+	text-decoration: none;
+	text-shadow:0px 1px 24px #ffffff;
+}
+.myButton1:hover
+{
+	background-color: #8a421d;
+}
+.myButton1:active
+{
+	position: relative;
+	top: 1px;
+}
+
+.myButton2
+{
+    cursor: pointer;
+    font-size: 60px;
+    text-decoration: none;
+    padding: 17px 36px;
+    color: black;
+    background: White;
+    border-radius: 60px;
+    border: 0px solid black;
+}
+.myButton2:hover
+{
+    background: #FF7E00;
+    color: #ffffff;
+    border: 0px solid #FF7E00;
+    transition: all 0.4s ease;
+}
+
+.myButton3
+{
+	box-shadow: 0px 0px 0px 0px #ffffff;
+	background-color: #207CC7;
+	border-radius: 28px;
+	border: 1px solid #ffffff;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 17px;
+	font-weight: bold;
+	padding: 5px 31px;
+	text-decoration: none;
+	text-shadow:0px 1px 24px #ffffff;
+}
+.myButton3:hover
+{
+	background-color: #8a421d;
+}
+.myButton3:active
+{
+	position: relative;
+	top: 1px;
+}
